@@ -1,9 +1,10 @@
-import type { Metadata } from 'next';
+import type { AppProps } from 'next/app';
 import { Inter, Merriweather } from 'next/font/google';
-import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import '@/app/globals.css';
 
+// Import the same fonts as your App Router
 const inter = Inter({ 
   subsets: ['latin'],
   display: 'swap',
@@ -17,25 +18,16 @@ const merriweather = Merriweather({
   variable: '--font-merriweather',
 });
 
-export const metadata: Metadata = {
-  title: 'Calvinist Parrot Ministries',
-  description: 'Faithful to the Gospel. Freely available to the world',
-};
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <html lang="en" className={`${inter.variable} ${merriweather.variable}`}>
-      <body className="flex flex-col min-h-screen">
+    <div className={`${inter.variable} ${merriweather.variable}`}>
+      <div className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow bg-white">
-          {children}
+          <Component {...pageProps} />
         </main>
         <Footer />
-      </body>
-    </html>
+      </div>
+    </div>
   );
 }

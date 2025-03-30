@@ -1,26 +1,100 @@
 @import "tailwindcss";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --foreground-rgb: 51, 51, 51;
+  --background-rgb: 255, 255, 255;
+
+  /* Primary Colors */
+  --deep-teal: #004D4D;
+  --deep-blue: #004D70;
+  --warm-gold: #FFD166;
+  
+  /* Accent Colors */
+  --royal-purple: #5D4777;
+  --sage-green: #A3B18A;
+  --mint-green: #5ABFB1;
+  
+  /* Neutral Colors */
+  --soft-parchment: #F4E5C0;
+  --cream: #F5EEDC;
+  --charcoal: #333333;
+  --light-gray: #E5E5E5;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+/* Remove the dark mode styles to prevent potential conflicts */
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+} */
+
+@layer base {
+  body {
+    @apply bg-white;
+    color: rgb(var(--foreground-rgb));
+    font-family: var(--font-inter), sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-merriweather), serif;
+    @apply font-bold text-[#004D4D];
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  p {
+    @apply my-4;
+  }
+  
+  a {
+    @apply text-[#004D70] hover:text-[#5D4777] transition-colors duration-200;
+  }
+  
+  button, .button {
+    @apply bg-[#004D4D] text-white py-2 px-6 rounded hover:bg-[#004D70] transition-colors duration-200 inline-block;
+  }
+  
+  .button-secondary {
+    @apply bg-[#FFD166] text-[#004D4D] py-2 px-6 rounded hover:bg-[#F4E5C0] transition-colors duration-200 inline-block;
+  }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6;
+  }
+  
+  .section {
+    @apply py-12 md:py-20;
+  }
+  
+  .card {
+    @apply bg-white p-6 rounded-lg shadow-md;
+  }
+}
+
+/* Add explicit footer styling to ensure it's applied */
+footer.bg-\[\#F4E5C0\] {
+  background-color: #F4E5C0 !important;
+}
+
+header.bg-\[\#F4E5C0\] {
+  background-color: #F4E5C0 !important;
 }
