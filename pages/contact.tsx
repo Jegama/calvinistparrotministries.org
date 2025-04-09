@@ -45,16 +45,16 @@ const ContactPage = () => {
                                     </div>
                                     <div className="mt-2 flex space-x-2">
                                         <Link
-                                            href="/documentation-parrot-qa"
-                                            className="inline-block px-3 py-1 bg-[#004D4D] text-white text-sm rounded hover:bg-[#003A3A] transition-colors"
-                                        >
-                                            Parrot-QA
-                                        </Link>
-                                        <Link
-                                            href="/documentation-parrot-chat"
+                                            href="https://www.calvinistparrot.com/"
                                             className="inline-block px-3 py-1 bg-[#004D4D] text-white text-sm rounded hover:bg-[#003A3A] transition-colors"
                                         >
                                             Parrot-Chat
+                                        </Link>
+                                        <Link
+                                            href="https://www.calvinistparrot.com/parrot-qa"
+                                            className="inline-block px-3 py-1 bg-[#004D4D] text-white text-sm rounded hover:bg-[#003A3A] transition-colors"
+                                        >
+                                            Parrot-QA
                                         </Link>
                                     </div>
                                 </div>

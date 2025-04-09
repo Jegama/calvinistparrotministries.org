@@ -259,7 +259,7 @@ const APIDocumentation = () => {
           {/* Try the QA Function */}
           <div className="text-center mt-8">
             <Link
-              href="https://www.calvinistparrot.com/"
+              href="https://www.calvinistparrot.com/parrot-qa"
               className="inline-block px-6 py-3 bg-[#004D4D] text-white rounded hover:bg-[#003A3A] transition-colors"
             >
               Try it!
