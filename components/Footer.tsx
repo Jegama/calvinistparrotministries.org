@@ -5,10 +5,10 @@ import { Twitter, Facebook, Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#F5EEDC] text-[#333333]" style={{backgroundColor: '#F5EEDC'}}>
+    <footer className="bg-[#F5EEDC] text-[#333333]" style={{ backgroundColor: '#F5EEDC' }}>
       <div className="container py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="col-span-1 md:col-span-1">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+          <div className="col-span-1 md:col-span-1 flex justify-center">
             <Image
               src="/LogoWithTextSquare.png"
               alt="Calvinist Parrot Ministries"
@@ -16,11 +16,8 @@ const Footer = () => {
               height={150}
               className="mb-4"
             />
-            <p className="text-sm">
-              Faithful to the Gospel. Freely available to the world.
-            </p>
           </div>
-          
+
           <div>
             <h3 className="text-[#004D4D] text-lg font-bold mb-4">About Us</h3>
             <ul className="space-y-2">
@@ -30,7 +27,7 @@ const Footer = () => {
               {/* <li><Link href="/financials" className="text-[#333333] hover:text-[#004D70]">Financial Transparency</Link></li> */}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-[#004D4D] text-lg font-bold mb-4">Resources</h3>
             <ul className="space-y-2">
@@ -40,7 +37,7 @@ const Footer = () => {
               {/* <li><Link href="/blog" className="text-[#333333] hover:text-[#004D70]">Blog</Link></li> */}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-[#004D4D] text-lg font-bold mb-4">Connect</h3>
             <ul className="space-y-2">
@@ -48,7 +45,7 @@ const Footer = () => {
               {/* <li><Link href="/donate" className="text-[#333333] hover:text-[#004D70]">Support Our Work</Link></li> */}
               {/* <li><Link href="/newsletter" className="text-[#333333] hover:text-[#004D70]">Newsletter</Link></li> */}
               <li>
-                <div className="flex space-x-4 mt-2">
+                <div className="flex justify-center space-x-4 mt-2">
                   {/* <Link href="https://x.com" className="text-[#004D70] hover:text-[#5D4777]">
                     <span className="sr-only">X</span>
                     <Twitter className="h-6 w-6" />
@@ -66,10 +63,11 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="mt-12 pt-8 border-t border-[#004D4D]/20">
           <p className="text-center text-sm text-[#333333]">
-            &copy; {new Date().getFullYear()} Calvinist Parrot Ministries. All rights reserved.
+            &copy; {new Date().getFullYear()} Calvinist Parrot Ministries. All rights reserved.<br /><br />
+            Faithful to the Gospel. Freely available to the world
           </p>
         </div>
       </div>
