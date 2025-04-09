@@ -67,16 +67,16 @@ const ParrotChatDocumentation = () => {
               The Parrot Chat endpoint provides real-time conversational interactions by streaming responses. It handles creating chat sessions, processing user messages, maintaining context, and integrating multiple theological agents including a final review stage ("Calvin's Review"). Essential doctrines are upheld, including:
             </p>
             <ul className="list-disc pl-8 text-[#333333] space-y-2">
-              <li><strong>The Trinity:</strong> One God in three persons—Father, Son, and Holy Spirit.</li>
-              <li><strong>The Deity and Humanity of Christ:</strong> Jesus Christ is truly God and truly man (<em>Vera Deus, vera homo</em>).</li>
-              <li><strong>The Incarnation and Virgin Birth:</strong> Christ took on human nature through the miraculous conception by the Holy Spirit and was born of the Virgin Mary.</li>
-              <li><strong>The Gospel:</strong> Salvation by grace alone through faith alone in Christ alone.</li>
-              <li><strong>The Authority of Scripture:</strong> The Bible is the inspired, inerrant, and infallible Word of God.</li>
-              <li><strong>The Resurrection:</strong> The bodily resurrection of Jesus Christ.</li>
-              <li><strong>Justification by Faith:</strong> Salvation by grace through faith in Christ alone.</li>
-              <li><strong>The Atonement (Christ's Saving Work):</strong> Christ's sacrificial death for sinners is necessary and sufficient to reconcile us to God.</li>
-              <li><strong>The Character of God:</strong> God's holiness, supremacy, sovereignty, immutability, faithfulness, goodness, patience, grace, mercy, love, and wrath.</li>
-              <li><strong>Christ's Return and Final Judgment:</strong> Jesus will come again to judge the living and the dead, culminating in the renewal of all things.</li>
+              <li><strong>The Trinity:</strong> We believe in one God, eternally existing in three persons—Father, Son, and Holy Spirit.</li>
+              <li><strong>The Character of God:</strong> God is holy, supreme, sovereign, immutable, faithful, good, patient, gracious, merciful, loving, and just; His wrath against sin is real.</li>
+              <li><strong>The Authority of Scripture:</strong> The Bible is the inspired, inerrant, and infallible Word of God, serving as the ultimate authority in all matters of faith and practice.</li>
+              <li><strong>The Deity and Humanity of Christ:</strong> We affirm that Jesus Christ is truly God and truly man (<em>Vera Deus, vera homo</em>).</li>
+              <li><strong>The Incarnation and Virgin Birth:</strong> We affirm that Jesus Christ took on human nature through miraculous conception by the Holy Spirit and was born of the Virgin Mary.</li>
+              <li><strong>The Atonement (Christ's Saving Work):</strong> Christ's sacrificial death on the cross is necessary and sufficient to reconcile sinners to God.</li>
+              <li><strong>The Gospel:</strong> We proclaim that salvation is secured by Christ's historical death, burial, and resurrection on the third day, demonstrating His victory over sin and death.</li>
+              <li><strong>Justification by Faith:</strong> Individuals are justified solely by grace alone through faith alone in Christ alone, apart from works.</li>
+              <li><strong>The Resurrection:</strong> We affirm the bodily resurrection of Jesus Christ, confirming His divinity and victory over sin and death.</li>
+              <li><strong>Christ's Return and Final Judgment:</strong> Jesus Christ will return personally and bodily to judge the living and the dead, culminating in the renewal of all things.</li>
             </ul>
           </div>
 
@@ -352,7 +352,7 @@ const ParrotChatDocumentation = () => {
           {/* Try the Chat Function */}
           <div className="text-center mt-8">
             <Link
-              href="https://www.calvinistparrot.com/main-chat"
+              href="https://www.calvinistparrot.com/"
               className="inline-block px-6 py-3 bg-[#004D4D] text-white rounded hover:bg-[#003A3A] transition-colors"
             >
               Try it!

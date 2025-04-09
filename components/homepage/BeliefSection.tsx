@@ -15,11 +15,13 @@ const BeliefSection = () => {
             <ul className="space-y-3 mb-6">
               {[
                 "The Trinity",
-                "The deity and humanity of Christ",
-                "Salvation by grace through faith",
-                "The authority of Scripture",
-                "The atoning death and resurrection of Jesus",
-                "The return of Christ and final judgment"
+                "The Character of God",
+                "The Authority of Scripture",
+                "The Deity and Humanity of Christ",
+                "The Incarnation and Virgin Birth",
+                "Salvation by Grace Alone Through Faith Alone",
+                "The Atonement and Resurrection of Jesus",
+                "The Return of Christ and Final Judgment"
               ].map((belief, index) => (
                 <li key={index} className="flex items-start">
                   <Check className="h-6 w-6 text-warm-gold mr-2 mt-0.5 flex-shrink-0" />

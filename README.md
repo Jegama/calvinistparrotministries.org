@@ -17,11 +17,13 @@ Calvinist Parrot Ministries exists to glorify God by creating and freely distrib
 ## Our Belief
 We affirm the essential truths of historic Christianity, including:
 - The Trinity
-- The deity and humanity of Christ
-- Salvation by grace through faith
-- The authority of Scripture
-- The atoning death and resurrection of Jesus
-- The return of Christ and final judgment
+- The Character of God
+- The Authority of Scripture
+- The Deity and Humanity of Christ
+- The Incarnation and Virgin Birth
+- Salvation by Grace Alone Through Faith Alone
+- The Atonement and Resurrection of Jesus
+- The Return of Christ and Final Judgment
 
 *"Biblically grounded. Digitally delivered. Always free."*
 
@@ -36,3 +38,7 @@ For questions or support, please [reach out](mailto:jesusmancilla@calvinistparro
 [Copy.church](https://copy.church/explain/importance/) | [sellingJesus.org](https://sellingJesus.org/free)
 ---|---
 ![Copy.church](https://copy.church/badges/lcc_alt_pde.png) | ![sellingJesus.org/free](https://copy.church/badges/sj_standard_pd.png)
+
+---
+
+![Calvinist Parrot](./public/LogoForHeader.png)
